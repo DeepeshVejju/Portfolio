@@ -1,35 +1,38 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "A-Star for 3D Maps",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Leveraged a-star algorithm to provide an optimal path in a 3-D Map based on terrain information.",
+    image: "./a-star.gif",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Document Image Classification",
+    subtitle: "Python, Pytorch",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Classified RVL-CDIP data using frameworks like Pytorch, Tensorflow, OpenCV. Achieved an accuracy of 92%. Leveraged Attention mechanism using Vision Transformers to extract features to train Meta Classifiers.",
+    image: "./cv.gif",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Air Quality Analysis",
+    subtitle: "Python, Tensorflow",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Forecasted growth of various indoor and outdoor pollutants and microbes growth in an isolated room. Experimented over multiple parameters of Bi-LSTM to achieve optimal results over a 5-day forecast. ",
+    image: "./nlp.gif",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Stock Prediction using News Headlines",
+    subtitle: "Python, Tensorflow, NLTK",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Predicted stock increase or decrease based on news using sentiment analysis and achieved 72% accuracy. Enforced the LDA algorithm to find the underlying topics of news headlines to get sentiments",
+    image: "./stock.gif",
+  },
+  {
+    title: "Hostel Management System",
+    subtitle: "Java, XML, Android Studio, Firebase",
+    description:
+      "Created a hostel management app to manage complaints of students through a single interface. Implemented a mail subsystem to forward complaints to respective owners with two-factor authentication.",
+    image: "./inmates.gif",
   },
 ];
 
@@ -51,10 +54,34 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
+  "Python",
+  "Java",
+  "C/C++",
+  "Golang",
+  "Bash-Scripting",
+  "Javascript",
+  "Typescript",
+  "HTML",
+  "CSS",
+  "XML",
+  "MySQL",
+  "NoSQL",
+  "Cypher",
+  "Postgres",
+  "MongoDB",
+  "Neo4j",
   "React",
-  "Next.js",
   "Node",
-  "GraphQL",
-  "Material UI",
+  "Docker",
+  "Kubernetes",
+  "Git",
+  "Jenkins",
+  "CI/CD",
+  "Selinux",
+  "Atlassian",
+  "Prometheus",
+  "Grafana",
+  "Wireshark",
+  "AWS"
+
 ];
